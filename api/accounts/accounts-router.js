@@ -1,4 +1,7 @@
-const router = require('express').Router()
+const express = require('express')
+const Account = require('./accounts-model')
+
+const router = express.Router()
 
 router.get('/', async (req, res, next) => {
   // DO YOUR MAGIC
